@@ -6,6 +6,11 @@ It offers a variety of pre-designed templates that are easy to use and customize
 
 ---
 
+## 📦 Repository Structure
+This repository is organized into **several folders**, each containing **different web templates** for specific types of websites.
+
+---
+
 ## 🎨 Customization  
 Each template comes with **full source code** and **design files** (e.g., Figma or Sketch) to help you understand and modify the templates with ease.
 
