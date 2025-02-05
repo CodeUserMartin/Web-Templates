@@ -6,17 +6,6 @@ It offers a variety of pre-designed templates that are easy to use and customize
 
 ---
 
-## 📦 Repository Structure  
-This repository is organized into several folders, each containing different web templates for specific types of websites.
-
-### **Available Templates:**  
-- **Ecommerce** – Online store templates with product pages, shopping carts, and checkout systems.  
-- **Portfolio** – Sleek and stylish templates to showcase projects and work.  
-- **Landing Page** – Optimized for marketing, lead generation, and promotional purposes.  
-- **Blog** – Blog layouts with post sections, sidebars, and comment sections.  
-
----
-
 ## 🎨 Customization  
 Each template comes with **full source code** and **design files** (e.g., Figma or Sketch) to help you understand and modify the templates with ease.
 
