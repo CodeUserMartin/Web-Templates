@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Joti+One&family=Judson:ital,wght@0,400;0,700;1,400&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+/* Variable Fonts */
+
+:root {
+
+    /* Font-family */
+    --inter: "Inter", serif;
+    --judson: "Judson", serif;
+    --joti-one: "Joti One", serif;
+    --inria-sans: "Inria Sans", serif;
+    --lexend-deca: "Lexend Deca", serif;
+    --Josefin-sans: "Josefin Sans", serif;
+    --inknut-antiqua: "Inknut Antiqua", serif;
+    --league-spartan: "League Spartan", serif;
+
+    /* Colors Palette */
+    --primary-Color: #FF8C00;
+    --secondary-Color: #0070F3;
+    --bodyBG: #121212;
+    --bodyL1: #1E1E1E;
+    --bodyL2: #292929;
+    --text-Readability: #F5F5F5;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: var(--bodyBG);
+}
+
+p {
+    color: var(--text-Readability);
+    line-height: 1.5;
+}
+
+
+/* -------------------Navigation Styling----------- */
+
+.navigation-container {
+    display: flex;
+    margin: 1em;
+}
+
+.logo-container-top img {
+    width: 78px;
+    height: 57px;
+}
+
+.navigation-items {
+    background-color: var(--secondary-Color);
+    color: var(--text-Readability);
+    width: 100%;
+    margin-left: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--joti-one);
+}
+
+.navigation-items li {
+    list-style: none;
+}
+
+.navigation-items li a {
+    color: var(--text-Readability);
+    text-decoration: none;
+}
+
+
+/* ------------------------Home Styling------------ */
+
+.main-content {
+    margin: 0 1em;
+}
+
+.top-container {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bodyL1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border: 2px solid green; */
+}
+
+.top-container h2 {
+    color: var(--text-Readability);
+    font-family: var(--josefin-sans);
+    letter-spacing: 4px;
+    stroke: var(--text-Readability);
+    stroke-width: 1;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.product-container {
+    background: var(--primary-Color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-container article {
+    padding: 0.5em;
+}
+
+
+.product-card {
+    background-color: var(--bodyL1);
+    padding: 0.5em;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+figure img {
+    height: 250px;
+    width: 200px;
+}
+
+.product-card p {
+    font-family: var(--league-spartan);
+    margin: 0.93em;
+    font-size: 0.93em;
+}
+
+.product-card span {
+    font-family: var(--lexend-deca);
+    color: var(--secondary-Color);
+    margin: 0 0.7em;
+    text-align: center;
+}
+
+/* -----------------Explore Styling---------------- */
+
+.explore-container {
+    background-color: var(--bodyL1);
+    padding: 1.5em 1em;
+    margin: 1em 0;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.explore-container article {
+    background-color: var(--bodyL2);
+    padding: 1em;
+    box-shadow: 0.9px 3px rgba(255, 140, 0, .25);
+}
+
+.explore-container p {
+    font-family: var(--inter);
+    font-size: 0.56rem;
+
+}
+
+/* -----------------Footer Styling---------------- */
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 1em;
+}
+
+.footer-content section {
+    background-color: var(--bodyL1);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 0 1em 0;
+}
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-links a {
+    color: var(--text-Readability);
+    font-family: var(--inria-sans);
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+
+.social-media-container {
+    margin: 1em 0.4em;
+    padding: 0.1em;
+}
+
+.social-media-container a {
+    color: var(--text-Readability);
+    padding: 0.5em;
+}
+
+
+.footer-two-container h3 {
+    color: var(--primary-Color);
+    font-family: var(--inria-sans);
+    padding: 0.5em 0;
+
+}
+
+.footer-two-container {
+    background-color: var(--bodyL1);
+    margin: 1em;
+}
+
+.footer-two-container p {
+    font-family: var(--judson);
+
+}
+
+.click {
+    margin: 1em 0;
+    text-decoration: none;
+    color: var(--primary-Color);
+}
+
+
+.orange-text {
+    color: var(--primary-Color);
+    font-family: var(--inknut-antiqua);
+    padding: 0 1em;
+    word-wrap: break-word;
+}
+
+address {
+    padding: 0.7em 1em;
+    color: var(--text-Readability);
+    font-family: var(--judson);
+}
+
+.end-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mail-tel {
+    padding: 0.5em 0;
+}
+
+.mail-tel a {
+    color: var(--text-Readability);
+    text-decoration: none;
+    padding: 1em;
+}
+
+.logo-container-bottom {
+    margin: 1em;
+}
+
+.logo-container-bottom img {
+    width: 56px;
+}
+
+.bottom-hr {
+    color: var(--primary-Color);
+}
+
+.copyrights {
+    display: block;
+    color: var(--text-Readability);
+    font-family: var(--inria-sans);
+    padding: 0.2em 0.5em;
+    text-align: center;
+}
+
+.mobile-view {
+    display: none;
+}
+
+
+
+/* ---------------Responsive Styling--------------- */
+
+@media (max-width: 720px) {
+
+    .mobile-view {
+        display: block;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .orange-text {
+        font-size: 1.2rem;
+    }
+
+    .end-container {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* ------------------Tablet/mid-screen sizes styling---------------- */
+
+@media (min-width: 721px) and (max-width: 1130px) {
+
+    .product-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product-card {
+        min-height: 100%;
+    }
+
+    .product-card p {
+        font-size: 1.122rem;
+    }
+
+    .product-card span {
+        font-size: 1rem;
+        display: block;
+        padding: 0.2em;
+    }
+
+    .desktop-view {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .end-container {
+        flex-wrap: wrap;
+    }
+}
+
+/* --------------------for large screen sizes styling--------------------------- */
+
+
+@media (min-width: 721px) {
+
+    /* -------------- Navigation section styling ------------*/
+
+    .navigation-container {
+        margin: 1.5em 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation-items {
+        width: 70%;
+    }
+
+    /* -------------- Home section styling ------------*/
+
+    .desktop-design-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .desktop-design {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .desktop-view {
+        max-width: 100%;
+    }
+
+    .top-container {
+        min-height: 400px;
+        margin: 1em 0;
+        border-radius: 20px;
+    }
+
+    .top-container h2 {
+        transform: rotate(90deg);
+        font-size: 1.896rem;
+        line-height: 1.5em;
+        padding: 0;
+    }
+
+    .product-container {
+        flex-direction: row;
+        margin: 0 0.5em;
+        padding: 0 1em;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .product-card {
+        padding: 0.5em;
+
+    }
+
+    /* -------------- Explore section styling ------------*/
+
+    .explore-container {
+        margin: 1em;
+        padding: 3.5em 1em;
+    }
+
+    .explore-container article {
+        padding: 2em;
+    }
+
+    .explore-container p {
+        font-size: 1.1rem;
+    }
+
+    /* -------------- Footer section styling ------------*/
+
+    .footer-details {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        margin: 0.5em 1em;
+    }
+
+    .footer-details section {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .footer-two-container h3 {
+        font-size: 1.335em;
+        padding: 0.5em 0;
+    }
+
+    .footer-two-container p {
+        font-size: 1.395em;
+    }
+
+    .footer-links {
+        margin: 1.5em;
+    }
+
+    .social-media-container {
+        margin: 1.5em;
+        padding: 1em 0;
+    }
+
+    .social-media-container a {
+        font-size: 1.3rem;
+    }
+
+    .footer-links a {
+        padding: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    .orange-text {
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+        margin: 1em 0;
+    }
+
+    address {
+        margin: 0.5em 0;
+        font-size: 1.125em;
+        line-height: 1.5rem;
+    }
+
+    .end-container {
+        padding: 0.5em 0;
+        margin: 1em 0;
+    }
+
+    .mail-tel a {
+        font-size: 1.223rem;
+        line-height: 2rem;
+    }
+
+    .logo-container-bottom {
+        width: 100%;
+    }
+
+    .logo-container-bottom img {
+        width: 76px;
+        height: 61px;
+    }
+
+    .copyrights {
+        text-align: center;
+        font-size: 1.325rem;
+    }
+
+}
