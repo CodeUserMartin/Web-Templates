@@ -27,7 +27,7 @@ Welcome to the **Clothing Brand Store Web Template**! This modern and stylish te
    Modify `style.css` to adjust colors, fonts, and layouts as per your brand.
 
 ## 📸 Preview
-[Insert a screenshot or live demo link here]
+Live Preview : (https://codeusermartin.github.io/Web-Templates/Clothing-Brand-Store-design/)
 
 ## 🛠️ Customization Guide
 - To change images, replace the existing image files in the `/Img` folder.
