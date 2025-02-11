@@ -19,7 +19,7 @@ Welcome to the **Clothing Brand Store Web Template**! This modern and stylish te
 ## 🚀 How to Use
 1. **Download or Clone the Repository**
    ```sh
-   git clone <repository-link>
+   git clone <https://github.com/CodeUserMartin/Web-Templates>
    ```
 2. **Open `index.html` in a Browser**
    Simply open the file in any modern browser to view the template.
